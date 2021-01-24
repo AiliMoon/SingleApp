@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nemo.tattoo"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seoul, Korea"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/image1"/>
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/image2"/>
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/image3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/image4"/>
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/image5"/>
+            <ImageView
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/image6"/>
+        </LinearLayout>
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="We offer you the best design and the best \n quality of your work.\nI will be an artist who does his best\n that you have no regrets about it :)\n Welcome!"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:text="Please contact us: 010 - 6491 - 3581"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:text="E-mail address: nemo521tattoo@gmail.com"/>
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:text="Check out our instagram account: nemo.tattoo"/>
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:text="Address: 26, Donggyo-ro 23-gil, Mapo-gu, \nSeoul, Republic of Korea"/>
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16dp"
+        android:text="Opening hours: Monday - Saturday: 10:00AM - 23:00PM"/>
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Please make a reservation first if possible."/>
+
+</LinearLayout>
